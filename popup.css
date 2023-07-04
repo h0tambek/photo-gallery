@@ -1,0 +1,33 @@
+@font-face {
+	font-family: secondFont;
+	src: url(Esteban-Regular.ttf);
+  }
+#popup {
+ 
+
+    display: none;
+    position: fixed;
+    
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 32%;
+    padding: 1px;
+    background-color: rgba(255, 255, 255, 0.842);
+  }
+  #popupImage {
+    max-width: 90%;
+    
+    max-height: auto  ;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    padding: 5%;
+  }
+  
+#popupText {font-family: secondFont; font-size: xx-large; text-align: center;  
+   color:#a51414; 
+}

@@ -1,0 +1,101 @@
+@font-face {
+	font-family: myFirstFont;
+	src: url(Higher\ Jump.ttf);
+  }
+  
+  @font-face{
+	font-family: Andale;
+	src: url(ANDALEMO.woff);
+  }
+  h1 {
+	font-family: myFirstFont;
+	text-align: center;
+}
+
+  
+.grid {
+	margin: 1.5em 80px;
+	max-width: 100%;
+	column-gap: 0;
+	row-gap: 0;
+	column-count: 5;
+  }
+  
+  .grid img {
+	transition: transform 1s, filter 1s;
+	width: 100%;
+	user-select: none;
+	position: relative;
+	height:auto;
+	vertical-align: bottom;
+
+  }
+  
+
+.grid img {
+  transition: filter 0.2s; 
+}
+
+.grid  img:hover {
+	-webkit-filter: invert(1);
+	filter: invert(1);
+}
+.grid h1{
+	text-align: right;
+	padding-bottom: 50px;
+	background-color: white;
+}
+
+  .inverted {
+	-webkit-filter: invert(1);
+	filter: invert(1);
+  }
+.grid .tag{text-align: left; padding-bottom: 0px;}
+  
+@keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+  }
+  
+  .fade-in-image {
+	opacity: 0;
+  }
+p{text-align: center; font-family: Andale; font-size: x-small;}
+
+
+#style1 {
+	-webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 45px;
+  height: 45px;
+  border: 1px solid rgba(0, 0, 0, 0.521);
+  
+  cursor: pointer;
+}
+body
+{background-color: rgb(255, 255, 255);}
+.bod{              
+	color:rgba(0, 0, 0, 0.596);
+	text-shadow: 5px 11px rgba(0, 225, 255, 0.753);
+
+}
+
+.tag{  background-image: url('gallery/spiral.gif');
+	background-repeat: repeat;
+	background-clip: text;
+	-webkit-background-clip: text;
+	background-position: center top; 
+	font-size: xx-large;
+	-webkit-text-fill-color: transparent;
+	animation: gif-loop 10s infinite; /* Adjust the animation duration as needed */
+  }
+  
+  @keyframes gif-loop {
+	0% {
+	  background-position: 0 0;
+	}
+	100% {
+	  background-position: 30% 0;
+	}
+  }
