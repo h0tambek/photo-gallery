@@ -99,3 +99,17 @@ body
 	  background-position: 30% 0;
 	}
   }
+
+
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-in-grid {
+    width: 20%;
+	padding: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.096);
+
+}
