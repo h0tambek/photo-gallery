@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const images = document.querySelectorAll('.fade-in-image');
   
   images.forEach((image, index) => {
-    const randomDelay = Math.random() * 1.7; // spawn pics in how many seconds? currently: 1.7s
+    const randomDelay = Math.random() * 5; // spawn pics in how many seconds? currently: 1.7s
     
     image.style.animation = `fadeIn 1s ${randomDelay}s forwards`;
   });
