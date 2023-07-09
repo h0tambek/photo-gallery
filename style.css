@@ -105,3 +105,31 @@ body
 	border: 1px solid rgba(0, 0, 0, 0.096);
 
 }
+
+
+.centered-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: Andale;
+	padding-top: 30px;
+  }
+
+  .centered-form textarea {
+	resize: none;
+	font-family:Andale;
+	width: 350px;
+	height: 80px;
+  }
+
+  .centered-form button {
+	margin-top: 10px;
+
+	background-color:transparent;
+	font-family: Andale;
+  }
+
+  .centered-form button {
+	display: block;
+	margin: 10px auto;
+  }
