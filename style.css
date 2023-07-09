@@ -76,30 +76,22 @@ p{text-align: center; font-family: Andale; font-size: x-small;}
 body
 {background-color: rgb(255, 255, 255);}
 .bod{              
-	color:rgba(0, 0, 0, 0.596);
-	text-shadow: 5px 11px rgba(0, 225, 255, 0.753);
+	color:rgba(0, 0, 0, 0.836);
+	text-shadow: 5px 11px rgba(0, 255, 213, 0.753);
 
 }
 
-.tag{  background-image: url('gallery/spiral.gif');
-	background-repeat: repeat;
+.tag {
+	background-image: url('gallery/spiral.gif');
+	background-repeat: no-repeat;
 	background-clip: text;
 	-webkit-background-clip: text;
-	background-position: center top; 
+	background-position:  bottom  ;
 	font-size: xx-large;
 	-webkit-text-fill-color: transparent;
-	animation: gif-loop 10s infinite; /* Adjust the animation duration as needed */
-  }
-  
-  @keyframes gif-loop {
-	0% {
-	  background-position: 0 0;
-	}
-	100% {
-	  background-position: 30% 0;
-	}
   }
 
+  
 
   .video-container {
     display: flex;
