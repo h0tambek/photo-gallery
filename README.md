@@ -1,4 +1,6 @@
-# photo-gallery
-2023 in photos
+# Photo Gallery
 
-some photos I took this year
+a collection of pictures i took in 2023 :)
+
+
+ph0t0s.netlify.app
