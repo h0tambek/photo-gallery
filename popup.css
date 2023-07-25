@@ -7,12 +7,12 @@
 
     display: none;
     position: fixed;
-    
+    border: 1px solid rgba(0, 0, 0, 0.315);
     z-index: 999;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 32%;
+    width: 30%;
     padding: 1px;
     background-color: rgba(255, 255, 255, 0.842);
   }
@@ -29,5 +29,5 @@
   }
   
 #popupText {font-family: secondFont; font-size: xx-large; text-align: center;  
-   color:#a51414; 
+   color:#000000; 
 }
