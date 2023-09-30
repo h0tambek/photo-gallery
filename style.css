@@ -18,8 +18,14 @@
 	max-width: 100%;
 	column-gap: 0;
 	row-gap: 0;
-	column-count: 5;
+	column-count: 9;
   }
+  #popupImage {
+    max-width: 150%; 
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
   
   .grid img {
 	width: 100%;

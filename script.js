@@ -5,8 +5,7 @@ function openPopup(imageSrc, paragraphText) {
 
   popupImage.src = imageSrc;
   popupText.textContent = paragraphText;
-  popup.style.display = 'block';  //put the block on display like i put the hood on the map
-}
+  popup.style.display = 'block';  }
 
 function closePopup() {
   var popup = document.getElementById('popup');
